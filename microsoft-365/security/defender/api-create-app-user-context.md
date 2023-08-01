@@ -125,7 +125,6 @@ $MsalParams = @{
 $MsalResponse = Get-MsalToken @MsalParams
 $AccessToken  = $MsalResponse.AccessToken
  
-$AccessToken # Display the token in PS console
 ```
 ## Validate the token
 
